@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="logincss.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Pathway+Extreme:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Parte inicial do site-->
+    <div class="container__principal">
+        <h1 class="container__tituloP">Faça seu login</h1>
+        <ul class="container__ul">
+            <li class="container__li">
+                <a href="#" class="container__link"><img src="img-icon/google.png" alt="icon google" class="container__icon gg"></a>
+            </li>
+            <li class="container__li">
+                <a href="#" class="container__link"><img src="img-icon/facebook.png" alt="icon facebook" class="container__icon"></a>
+            </li>
+
+            <li class="container__li">
+                <a href="#" class="container__link"><img src="img-icon/linkedin.png" alt="icon linkedin" class="container__icon"></a>
+            </li>
+            <li class="container__li">
+                <a href="#" class="container__link"><img src="img-icon/github.png" alt="icon github" class="container__icon"></a>
+            </li>
+        </ul>
+        <p class="container__paragrafo">Ou</p>
+        <!--Segunda parte do site-->
+        <main>
+            <form class="container__formulario">
+                <label for="email" class="container__label">Email</label>
+                <input type="email" id="email" required placeholder="Exemplo@gmail.com" class="container__input">
+
+                <label for="senha" class="container__label">Senha</label>
+                <input type="password" id="senha" required placeholder="********" class="container__input">
+
+                <input type="submit" id="value" class="container__enviar">
+            </form>
+            <a href="#" class="container__link__form">
+                <p class="container__paragrafo__form">Esqueceu sua senha?</p>
+            </a>
+        </main>
+    </div>
+</body>
+
+</html>
